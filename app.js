@@ -121,11 +121,9 @@ for(let i = 0; i < cards.length; i++){
                     conditionDubleCase("imageMarvel8", "imageMarvel9");
                 }
                 if (document.getElementById("imageMarvel10").style.display === "block" && document.getElementById("imageMarvel11").style.display === "block") {
-                    image[i].style.display = "none";
                     conditionDubleCase("imageMarvel10", "imageMarvel11");
                 }
                 if (document.getElementById("imageMarvel12").style.display === "block" && document.getElementById("imageMarvel13").style.display === "block") {
-                    image[i].style.display = "none";
                     conditionDubleCase("imageMarvel12", "imageMarvel13");
                 }
                 if (document.getElementById("imageMarvel14").style.display === "block" && document.getElementById("imageMarvel15").style.display === "block") {
